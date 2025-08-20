@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hello, GitHub Pages 👋</title>
+  <meta name="description" content="A tiny site to test GitHub Pages." />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>🚀 Hello, GitHub Pages!</h1>
+    <button id="themeToggle" class="button" aria-pressed="false">Toggle theme</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>You did it!</h2>
+      <p>If you can see this page at <code>https://YOUR-USERNAME.github.io/YOUR-REPO/</code>, GitHub Pages is working.</p>
+      <p>Edit <code>index.html</code>, <code>style.css</code>, and <code>script.js</code> right in GitHub to try changes.</p>
+    </section>
+
+    <section class="card">
+      <h3>Live demo bits</h3>
+      <p>Now: <span id="now"></span></p>
+      <button id="clicker" class="button">Click me</button>
+      <p id="count">Clicked 0 times.</p>
+    </section>
+
+    <section class="card">
+      <h3>Next steps</h3>
+      <ul>
+        <li>Replace this text with your own.</li>
+        <li>Add images by dragging them into your repo and linking to them.</li>
+        <li>Create more pages (e.g., <code>about.html</code>) and link to them.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for learning GitHub Pages. © <span id="year"></span></p>
+  </footer>
+</body>
+</html>
